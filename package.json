@@ -1,0 +1,42 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "start": "nuxt start",
+    "lint": "eslint --ext .js,.ts,.vue --ignore-path .gitignore .",
+    "test": "jest --passWithNoTests"
+  },
+  "devDependencies": {
+    "@fontsource/material-icons": "^4.5.4",
+    "@fontsource/material-icons-outlined": "^4.5.4",
+    "@fontsource/material-icons-rounded": "^4.5.4",
+    "@fontsource/material-icons-sharp": "^4.5.4",
+    "@fontsource/material-icons-two-tone": "^4.5.4",
+    "@nuxt/vite-builder": "^3.1.2",
+    "@nuxtjs/eslint-config-typescript": "^10.0.0",
+    "@pinia/nuxt": "^0.4.8",
+    "@design-system/design-system-vuejs": "^1.0.0-rc8",
+    "eslint": "^8.26.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-nuxt": "^3.2.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-vue": "^9.7.0",
+    "nuxt": "^3.0.0",
+    "pinia": "^2.0.34",
+    "prettier": "^2.7.1",
+    "typescript": "^4.9.4"
+  },
+  "dependencies": {
+    "jest": "^29.3.1",
+    "jest-environment-jsdom": "^29.3.1",
+    "sass": "^1.57.1",
+    "ts-jest": "^29.0.3",
+    "vue-jest": "^3.0.7"
+  }
+}

@@ -1,0 +1,43 @@
+@import "@website/design-system-vuejs/dist/styles/bulma/layout/section.scss";
+@import "@website/design-system-vuejs/dist/styles/bulma/elements/container.scss";
+
+@import "@website/design-system-vuejs/dist/styles/foundations.scss";
+@import "@website/design-system-vuejs/dist/styles/base.scss";
+@import "@website/design-system-vuejs/dist/styles/font.scss";
+
+@import '@website/design-system-vuejs/dist/styles/bulma/elements/tag.scss';
+@import '@website/design-system-vuejs/dist/styles/bulma/elements/box.scss';
+@import '@website/design-system-vuejs/dist/styles/bulma/elements/button.scss';
+@import '@website/design-system-vuejs/dist/styles/bulma/elements/title.scss';
+@import '@website/design-system-vuejs/dist/styles/bulma/layout/footer.scss';
+@import '@website/design-system-vuejs/dist/styles/bulma/components/navbar.scss';
+@import '@website/design-system-vuejs/dist/styles/bulma/components/modal.scss';
+
+@import '@website/design-system-vuejs/dist/styles/components/QfcBanner.scss';
+@import '@website/design-system-vuejs/dist/styles/components/QfcBlockContentTitle.scss';
+@import '@website/design-system-vuejs/dist/styles/components/QfcBox.scss';
+@import '@website/design-system-vuejs/dist/styles/components/QfcButton.scss';
+@import '@website/design-system-vuejs/dist/styles/components/QfcCard.scss';
+@import '@website/design-system-vuejs/dist/styles/components/QfcCardSlider.scss';
+@import '@website/design-system-vuejs/dist/styles/components/QfcCheckbox.scss';
+@import '@website/design-system-vuejs/dist/styles/components/QfcFooter.scss';
+@import '@website/design-system-vuejs/dist/styles/components/QfcHeader.scss';
+@import '@website/design-system-vuejs/dist/styles/components/QfcLink.scss';
+@import '@website/design-system-vuejs/dist/styles/components/QfcModal.scss';
+@import '@website/design-system-vuejs/dist/styles/components/QfcNav.scss';
+@import '@website/design-system-vuejs/dist/styles/components/QfcNavItem.scss';
+@import '@website/design-system-vuejs/dist/styles/components/QfcTag.scss';
+@import '@website/design-system-vuejs/dist/styles/components/QfcTagList.scss';
+@import '@website/design-system-vuejs/dist/styles/components/QfcTextField.scss';
+@import '@website/design-system-vuejs/dist/styles/components/QfcToggle.scss';
+@import '@website/design-system-vuejs/dist/styles/components/QfcSeparator.scss';
+@import '@website/design-system-vuejs/dist/styles/components/QfcBack.scss';
+
+html {
+  background-color: $background;
+}
+body {
+  font-family: 'Poppins', serif;
+}
+
+
